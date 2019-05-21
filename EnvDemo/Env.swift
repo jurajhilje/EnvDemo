@@ -9,6 +9,7 @@
 import Foundation
 
 enum Env {
+    
     static func value<T>(for key: String) -> T {
         guard let value = Bundle.main.infoDictionary?[key] as? T else {
             fatalError("Invalid or missing Info.plist key: \(key)")
@@ -16,10 +17,5 @@ enum Env {
         
         return value
     }
-}
-
-enum Config {
-    static var env: String {
-        return Env.value(for: "ENV")
-    }
+    
 }
