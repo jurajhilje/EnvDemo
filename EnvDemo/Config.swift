@@ -11,7 +11,7 @@ import Foundation
 enum Config {
     
     static var env: String {
-        return Env.value(for: "ENV")
+        return Xcconfig.value(for: "ENV")
     }
     
 }

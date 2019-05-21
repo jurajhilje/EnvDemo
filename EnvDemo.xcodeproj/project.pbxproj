@@ -17,7 +17,7 @@
 		8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
 		8229B57C2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
 		8229B57D2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
-		8229B57F2293F51A00263FE7 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B57E2293F51A00263FE7 /* Env.swift */; };
+		8229B57F2293F51A00263FE7 /* Xcconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B57E2293F51A00263FE7 /* Xcconfig.swift */; };
 		8229B5812294105500263FE7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B5802294105500263FE7 /* Config.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		8229B56F2293F29A00263FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8229B5782293F40B00263FE7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		8229B57B2293F48600263FE7 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
-		8229B57E2293F51A00263FE7 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		8229B57E2293F51A00263FE7 /* Xcconfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcconfig.swift; sourceTree = "<group>"; };
 		8229B5802294105500263FE7 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 			children = (
 				8229B5582293F29800263FE7 /* AppDelegate.swift */,
 				8229B55A2293F29800263FE7 /* ViewController.swift */,
-				8229B57E2293F51A00263FE7 /* Env.swift */,
+				8229B57E2293F51A00263FE7 /* Xcconfig.swift */,
 				8229B5802294105500263FE7 /* Config.swift */,
 				8229B55C2293F29800263FE7 /* Main.storyboard */,
 				8229B55F2293F29A00263FE7 /* Assets.xcassets */,
@@ -217,7 +217,7 @@
 			files = (
 				8229B55B2293F29800263FE7 /* ViewController.swift in Sources */,
 				8229B5812294105500263FE7 /* Config.swift in Sources */,
-				8229B57F2293F51A00263FE7 /* Env.swift in Sources */,
+				8229B57F2293F51A00263FE7 /* Xcconfig.swift in Sources */,
 				8229B5592293F29800263FE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
