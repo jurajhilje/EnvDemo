@@ -13,6 +13,8 @@
 		8229B5602293F29A00263FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8229B55F2293F29A00263FE7 /* Assets.xcassets */; };
 		8229B5632293F29A00263FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5612293F29A00263FE7 /* LaunchScreen.storyboard */; };
 		8229B56E2293F29A00263FE7 /* EnvDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B56D2293F29A00263FE7 /* EnvDemoTests.swift */; };
+		8229B5792293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
+		8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		8229B5692293F29A00263FE7 /* EnvDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8229B56D2293F29A00263FE7 /* EnvDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvDemoTests.swift; sourceTree = "<group>"; };
 		8229B56F2293F29A00263FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8229B5782293F40B00263FE7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		8229B54C2293F29800263FE7 = {
 			isa = PBXGroup;
 			children = (
+				8229B5782293F40B00263FE7 /* debug.xcconfig */,
 				8229B5572293F29800263FE7 /* EnvDemo */,
 				8229B56C2293F29A00263FE7 /* EnvDemoTests */,
 				8229B5562293F29800263FE7 /* Products */,
@@ -177,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8229B5792293F40B00263FE7 /* debug.xcconfig in Resources */,
 				8229B5632293F29A00263FE7 /* LaunchScreen.storyboard in Resources */,
 				8229B5602293F29A00263FE7 /* Assets.xcassets in Resources */,
 				8229B55E2293F29800263FE7 /* Main.storyboard in Resources */,
@@ -187,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
