@@ -15,6 +15,8 @@
 		8229B56E2293F29A00263FE7 /* EnvDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B56D2293F29A00263FE7 /* EnvDemoTests.swift */; };
 		8229B5792293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
 		8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
+		8229B57C2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
+		8229B57D2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 		8229B56D2293F29A00263FE7 /* EnvDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvDemoTests.swift; sourceTree = "<group>"; };
 		8229B56F2293F29A00263FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8229B5782293F40B00263FE7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		8229B57B2293F48600263FE7 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 		8229B54C2293F29800263FE7 = {
 			isa = PBXGroup;
 			children = (
+				8229B57B2293F48600263FE7 /* release.xcconfig */,
 				8229B5782293F40B00263FE7 /* debug.xcconfig */,
 				8229B5572293F29800263FE7 /* EnvDemo */,
 				8229B56C2293F29A00263FE7 /* EnvDemoTests */,
@@ -185,6 +189,7 @@
 				8229B5632293F29A00263FE7 /* LaunchScreen.storyboard in Resources */,
 				8229B5602293F29A00263FE7 /* Assets.xcassets in Resources */,
 				8229B55E2293F29800263FE7 /* Main.storyboard in Resources */,
+				8229B57C2293F48600263FE7 /* release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8229B57D2293F48600263FE7 /* release.xcconfig in Resources */,
 				8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +254,7 @@
 /* Begin XCBuildConfiguration section */
 		8229B5702293F29A00263FE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B5782293F40B00263FE7 /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -309,6 +316,7 @@
 		};
 		8229B5712293F29A00263FE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B57B2293F48600263FE7 /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -364,6 +372,7 @@
 		};
 		8229B5732293F29A00263FE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B5782293F40B00263FE7 /* debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +391,7 @@
 		};
 		8229B5742293F29A00263FE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B57B2293F48600263FE7 /* release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +410,7 @@
 		};
 		8229B5762293F29A00263FE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B5782293F40B00263FE7 /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -421,6 +432,7 @@
 		};
 		8229B5772293F29A00263FE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229B57B2293F48600263FE7 /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
