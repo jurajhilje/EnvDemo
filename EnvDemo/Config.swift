@@ -10,8 +10,20 @@ import Foundation
 
 enum Config {
     
+    // MARK: Properties
+    
     static var env: String {
-        return Xcconfig.value(for: "ENV")
+        return value(for: "ENV")
+    }
+    
+    // MARK: Helper
+    
+    static func value<T>(for key: String) -> T {
+        guard let value = Bundle.main.infoDictionary?[key] as? T else {
+            fatalError("Invalid or missing Info.plist key: \(key)")
+        }
+        
+        return value
     }
     
 }
