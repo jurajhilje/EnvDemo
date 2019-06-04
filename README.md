@@ -19,7 +19,7 @@ New variables should be added to `Info.plist` as key values, for eg.:
 
 Use environment variables in code at runtime:
 ```swift
-Xcconfig.value(for: "ENV")
+Config.value(for: "ENV")
 ```
 
 ### Configuration settings file format documentation
