@@ -13,10 +13,6 @@
 		8229B5602293F29A00263FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8229B55F2293F29A00263FE7 /* Assets.xcassets */; };
 		8229B5632293F29A00263FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5612293F29A00263FE7 /* LaunchScreen.storyboard */; };
 		8229B56E2293F29A00263FE7 /* EnvDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B56D2293F29A00263FE7 /* EnvDemoTests.swift */; };
-		8229B5792293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
-		8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B5782293F40B00263FE7 /* debug.xcconfig */; };
-		8229B57C2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
-		8229B57D2293F48600263FE7 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8229B57B2293F48600263FE7 /* release.xcconfig */; };
 		8229B5812294105500263FE7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229B5802294105500263FE7 /* Config.swift */; };
 /* End PBXBuildFile section */
 
@@ -152,14 +148,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Juraj Hilje";
 				TargetAttributes = {
 					8229B5542293F29800263FE7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 					};
 					8229B5682293F29A00263FE7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 						TestTargetID = 8229B5542293F29800263FE7;
 					};
 				};
@@ -188,11 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8229B5792293F40B00263FE7 /* debug.xcconfig in Resources */,
 				8229B5632293F29A00263FE7 /* LaunchScreen.storyboard in Resources */,
 				8229B5602293F29A00263FE7 /* Assets.xcassets in Resources */,
 				8229B55E2293F29800263FE7 /* Main.storyboard in Resources */,
-				8229B57C2293F48600263FE7 /* release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8229B57D2293F48600263FE7 /* release.xcconfig in Resources */,
-				8229B57A2293F40B00263FE7 /* debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajhilje.EnvDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -407,7 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajhilje.EnvDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -428,7 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajhilje.EnvDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvDemo.app/EnvDemo";
 			};
@@ -450,7 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jurajhilje.EnvDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvDemo.app/EnvDemo";
 			};
